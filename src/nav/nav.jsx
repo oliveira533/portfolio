@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
 import './nav.css';
 import linkedin from "../img/linkedin.png"
 import github from "../img/github.png";

@@ -1,0 +1,14 @@
+.nav{
+    background: #000922;
+    width: 100vw;
+    height: 10vh;
+    margin: 0;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.nav-text{
+    font-size: 3ch;
+}

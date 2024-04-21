@@ -1,4 +1,5 @@
 import './App.css';
+import AboutPage from './about/about';
 import MainPage from './main/main';
 import Nav from './nav/nav';
 

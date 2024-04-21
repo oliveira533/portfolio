@@ -17,7 +17,7 @@ function MainPage(){
                     <label className='main-project-desc'>Mobile App</label>
                 </div>
 
-                <div className='main-projects-item'>
+                <div className='main-projects-item main-projects-item-margin-2'>
                     <img className='main-projects-item-img' src="#" alt="" />
                     <label className='main-project-title'><a href='https://github.com/oliveira533/Edu-Inspiration'><b>Edu Inspiration</b></a></label><br/>
                     <label className='main-project-desc'>Web App</label>

@@ -18,6 +18,7 @@
     width: 80%;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .main-contianer-line{
@@ -42,7 +43,7 @@
     height: 100%;
     padding: 17px;
     text-align: start;
-    margin: 0 30px;
+    margin: 0;
 }
 
 .main-projects-item-img{
@@ -58,4 +59,8 @@
 .main-project-title a{
     color: #000922;
     text-decoration: none;
+}
+
+.main-projects-item-margin-2{
+    margin-left: 40px;
 }

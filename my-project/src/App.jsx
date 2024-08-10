@@ -3,6 +3,7 @@ import './App.css'
 import Navbar from './components/nav'
 import Contact from './components/contact'
 import Linkedin from './components/linkedin'
+import Projects from './components/projects'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -10,8 +11,11 @@ function App() {
   return (
     <>
     <Navbar/>
-    <Contact/>
-    <Linkedin/>
+    <div>
+      <Contact/>
+      <Linkedin/>
+      <Projects/> 
+    </div>
     </>
   )
 }

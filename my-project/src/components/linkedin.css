@@ -19,10 +19,15 @@
     font-size: 1.3em;
 }
 button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: #f3cbffd7;
-    border: solid 1px;
-    border-radius: 20px;
+    border: 0;
+    border-radius: 10px;
     font-size: 1.1em;
     display: flex;
     justify-content: center;
+    cursor: pointer;
+    height: 35px;
 }

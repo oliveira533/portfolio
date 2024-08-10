@@ -16,6 +16,6 @@ function Linkedin(){
             </main>
         </>
     );
-};
+}
 
 export default Linkedin;

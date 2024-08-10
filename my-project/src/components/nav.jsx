@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { IoIosCodeWorking } from "react-icons/io";
 import "./nav.css"
 
 function Navbar(){
@@ -7,7 +6,7 @@ function Navbar(){
         <>
             <nav>
                 <ul className='nav-bar-ul'>
-                    <li className='nav-bar-name'><h3><label>Gustavo Oliveira</label></h3></li>
+                    <li className='nav-bar-name'><h4><label>Gustavo Oliveira</label></h4></li>
                     <li>Contact</li>
                     <li><a href='https://www.linkedin.com/in/gustavo-oliveira-desenvolvedor-junior/'>LinkedIn</a></li>
                     <li>Projects</li>

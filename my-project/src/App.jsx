@@ -11,13 +11,11 @@ function App() {
 
   return (
     <>
-    <Navbar/>
-    <div>
+      <Navbar/>
       <Contact/>
       <Linkedin/>
       <Projects/> 
       <Expirence/>
-    </div>
     </>
   )
 }

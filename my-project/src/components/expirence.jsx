@@ -4,7 +4,7 @@ import './expirence.css';
 function Expirence(){
     return(
         <>
-            <main className='experience'>
+            <main id='experience' className='experience'>
                 <div className='card-experience'>
                     <h1>Work Experience</h1>
                     <div className='card'>

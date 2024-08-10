@@ -4,7 +4,7 @@ import './projects.css'
 function Projects(){
     return(
         <>
-            <main className='projects'>
+            <main id='projects' className='projects'>
                 <div className='card-projects'>
                     <h1>Projects</h1>
                     <div className='card-links'>

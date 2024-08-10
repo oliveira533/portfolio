@@ -18,3 +18,11 @@
 .link-name{
     font-size: 1.3em;
 }
+button{
+    background: #f3cbffd7;
+    border: solid 1px;
+    border-radius: 20px;
+    font-size: 1.1em;
+    display: flex;
+    justify-content: center;
+}

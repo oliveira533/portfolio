@@ -12,7 +12,7 @@ function Linkedin(){
                 <img src={profile} alt="profile picture" className='profile-picture'/>
                 <label className='link-name'>Gustavo de Oliveira</label>
                 <label className='link-title'>backend developer</label>
-                <button><FiLinkedin /></button>
+                <button onClick={() => window.location.href = 'https://www.linkedin.com/in/gustavo-oliveira-desenvolvedor-junior/'}><FiLinkedin className='icon'/>View Profile</button>
             </main>
         </>
     );

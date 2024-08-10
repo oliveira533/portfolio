@@ -1,0 +1,27 @@
+.experience{
+    width: 100%;
+    background: rgba(207, 227, 255, 0.726);
+    height: 500px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.card-experience{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 50%;
+}
+.card{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.card-tile,.card-sub,.card-list{
+    margin: 5px;
+}

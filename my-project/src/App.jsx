@@ -4,6 +4,7 @@ import Navbar from './components/nav'
 import Contact from './components/contact'
 import Linkedin from './components/linkedin'
 import Projects from './components/projects'
+import Expirence from './components/expirence'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -15,6 +16,7 @@ function App() {
       <Contact/>
       <Linkedin/>
       <Projects/> 
+      <Expirence/>
     </div>
     </>
   )

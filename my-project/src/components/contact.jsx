@@ -3,19 +3,20 @@ import { MdMailOutline } from "react-icons/md";
 import { LuPhone } from "react-icons/lu";
 import { FaNodeJs } from "react-icons/fa";
 import { TbBrandTypescript } from "react-icons/tb";
-import { SiMongodb } from "react-icons/si";
 import { DiJavascript1 } from "react-icons/di";
-import { FaPhp } from "react-icons/fa";
+import { FaPython, FaAws } from "react-icons/fa";
 import { SiMysql } from "react-icons/si";
+import { FaGolang } from "react-icons/fa6";
 
 function Contact() {
   const techIcons = [
     { Icon: FaNodeJs, name: "Node.js" },
     { Icon: TbBrandTypescript, name: "TypeScript" },
-    { Icon: SiMongodb, name: "MongoDB" },
     { Icon: DiJavascript1, name: "JavaScript" },
-    { Icon: FaPhp, name: "PHP" },
+    { Icon: FaPython, name: "Python" },
     { Icon: SiMysql, name: "MySQL" },
+    { Icon: FaAws, name: "AWS" },
+    { Icon: FaGolang, name: "Goalng" },
   ];
 
   return (
@@ -36,9 +37,7 @@ function Contact() {
           </h1>
 
           <p className="text-sm sm:text-lg text-gray-300 max-w-2xl mx-auto">
-            Backend Developer especializado em Node.js, TypeScript e
-            arquiteturas de microsserviços
-          </p>
+          Desenvolvedor backend com experiência em microsserviços, integrações de sistemas, arquitetura serverless.</p>
         </div>
 
         {/* contato  */}

@@ -38,9 +38,20 @@ function Contact() {
             Gustavo de Oliveira
           </h1>
 
-          <p className="text-sm sm:text-lg text-gray-300 max-w-2xl mx-auto">
-            Desenvolvedor backend com experiência em Python, TypeScript, Golang e arquitetura de microsserviços. Atuação em ambientes cloud-native com AWS, APIs REST e integrações orientadas a eventos.
-          </p>
+          <div className="text-sm sm:text-base text-gray-300 max-w-3xl mx-auto space-y-4 leading-relaxed">
+            <p>
+              Sou Desenvolvedor Backend Júnior apaixonado por criar soluções digitais escaláveis e confiáveis. Minha trajetória tem sido marcada por experiências em integração de sistemas, desenvolvimento de microsserviços, automação de processos e arquitetura serverless na AWS, sempre com foco em gerar eficiência, dados bem estruturados e impacto real no negócio.
+            </p>
+            <p>
+              Atualmente, faço parte do time de tecnologia da Compre Sua Peça, onde contribuo para o crescimento do ecossistema digital da empresa.
+            </p>
+            <p>
+              As minhas experiências me permitiram alcançar resultados concretos, como a melhoria de 70% na qualidade dos dados de leads e ganhos expressivos de eficiência na operação da empresa.
+            </p>
+            <p>
+              Sou movido por desafios técnicos e pela oportunidade de transformar necessidades de negócio em soluções digitais robustas, que impulsionam escalabilidade, eficiência e crescimento.
+            </p>
+          </div>
         </div>
 
         {/* contato  */}

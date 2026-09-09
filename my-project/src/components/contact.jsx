@@ -80,18 +80,26 @@ function Contact() {
             Tecnologias
           </h3>
           <div className="grid grid-cols-3 sm:flex sm:flex-wrap sm:justify-center gap-4 max-w-2xl mx-auto">
-            {techIcons.map(({ Icon, name, delay }, index) => (
+            {techIcons.map(({ Icon, name }) => (
               <div
                 key={name}
                 className="group relative p-3 m-auto bg-gray-800/50 backdrop-blur-sm border border-gray-700/50 
                 rounded-xl hover:border-green-500/50 transition-all duration-300 hover:scale-110 
                 hover:rotate-3 animate-fadeInUp"
-                title={name}
               >
                 <Icon
                   className="text-[1.5rem] text-white group-hover:text-green-400 
                 transition-colors duration-300"
                 />
+
+                <span
+                  className="pointer-events-none absolute -top-9 left-1/2 z-20 -translate-x-1/2
+                  whitespace-nowrap rounded-md bg-gray-900 px-2 py-1 text-xs text-green-400
+                  opacity-0 shadow-lg border border-gray-700 transition-all duration-200
+                  group-hover:opacity-100 group-hover:-translate-y-1"
+                >
+                  {name}
+                </span>
 
                 <div
                   className="absolute inset-0 rounded-xl bg-gradient-to-r from-blue-500/10 to-green-500/10 

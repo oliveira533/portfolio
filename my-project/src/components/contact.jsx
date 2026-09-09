@@ -1,22 +1,24 @@
 import React from "react";
-import { MdMailOutline } from "react-icons/md";
+import { MdMailOutline, MdOutlineApi } from "react-icons/md";
 import { LuPhone } from "react-icons/lu";
-import { FaNodeJs } from "react-icons/fa";
+import { FaNodeJs, FaPython, FaAws } from "react-icons/fa";
 import { TbBrandTypescript } from "react-icons/tb";
-import { DiJavascript1 } from "react-icons/di";
-import { FaPython, FaAws } from "react-icons/fa";
-import { SiMysql } from "react-icons/si";
+import { SiMysql, SiPostgresql, SiNestjs, SiFlask, SiSelenium } from "react-icons/si";
 import { FaGolang } from "react-icons/fa6";
 
 function Contact() {
   const techIcons = [
-    { Icon: FaNodeJs, name: "Node.js" },
-    { Icon: TbBrandTypescript, name: "TypeScript" },
-    { Icon: DiJavascript1, name: "JavaScript" },
     { Icon: FaPython, name: "Python" },
-    { Icon: SiMysql, name: "MySQL" },
+    { Icon: FaGolang, name: "Golang" },
+    { Icon: FaNodeJs, name: "Node.js" },
+    { Icon: SiNestjs, name: "NestJS" },
+    { Icon: SiFlask, name: "Flask" },
+    { Icon: TbBrandTypescript, name: "TypeScript" },
     { Icon: FaAws, name: "AWS" },
-    { Icon: FaGolang, name: "Goalng" },
+    { Icon: SiMysql, name: "MySQL" },
+    { Icon: SiPostgresql, name: "PostgreSQL" },
+    { Icon: MdOutlineApi, name: "REST APIs" },
+    { Icon: SiSelenium, name: "Selenium" },
   ];
 
   return (
@@ -37,7 +39,8 @@ function Contact() {
           </h1>
 
           <p className="text-sm sm:text-lg text-gray-300 max-w-2xl mx-auto">
-          Desenvolvedor backend com experiência em microsserviços, integrações de sistemas, arquitetura serverless.</p>
+            Desenvolvedor backend com experiência em Python, TypeScript, Golang e arquitetura de microsserviços. Atuação em ambientes cloud-native com AWS, APIs REST e integrações orientadas a eventos.
+          </p>
         </div>
 
         {/* contato  */}
@@ -76,7 +79,7 @@ function Contact() {
           <h3 className="text-sm sm:text-lg font-semibold text-gray-400 mb-6">
             Tecnologias
           </h3>
-          <div className="grid grid-cols-3 sm:flex sm:flex-wrap sm:justify-center gap-4 max-w-md mx-auto">
+          <div className="grid grid-cols-3 sm:flex sm:flex-wrap sm:justify-center gap-4 max-w-2xl mx-auto">
             {techIcons.map(({ Icon, name, delay }, index) => (
               <div
                 key={name}
